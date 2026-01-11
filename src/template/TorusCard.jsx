@@ -1,6 +1,6 @@
 import React from "react";
 
-const TorusCard = ({ title, duration, price, image }) => {
+const TorusCard = ({ title, duration, price, image , type }) => {
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden border hover:shadow-xl transition">
   <img
@@ -12,6 +12,9 @@ const TorusCard = ({ title, duration, price, image }) => {
   <div className="p-5">
     <h3 className="text-lg font-semibold text-gray-800 mb-2">
       {title}
+    </h3>
+    <h3 className="text-lg font-semibold text-gray-800 mb-2">
+      {type}
     </h3>
 
     <p className="text-gray-600 text-sm mb-1">

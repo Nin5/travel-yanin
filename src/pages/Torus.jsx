@@ -9,24 +9,28 @@ const Torus = () => {
       duration: 3,
       price: 4900,
       image: "1.png",
+      type : "ในประเทศ",
     },
     {
       title: "ดอยอินทนนท์-เชียงใหม่",
       duration: 4,
       price: 6500,
       image: "2.png",
+      type : "ในประเทศ",
     },
     {
       title: "โตเกียว-ฟูจิ",
       duration: 5,
       price: 32900,
       image: "3.png",
+      type : "ต่างประเทศ",
     },
     {
       title: "เที่ยวซีรีส์ตามรอบซีรีส์ดัง",
       duration: 4,
       price: 21500,
       image: "4.png",
+      type : "ต่างประเทศ",
     },
   ]
 
