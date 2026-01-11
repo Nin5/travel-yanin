@@ -1,5 +1,6 @@
 import React from 'react'
 import MainLayout from '../template/MainLayout'
+import { NavLink } from "react-router-dom";
 
 const NotFound = () => {
   return (
@@ -9,6 +10,11 @@ const NotFound = () => {
         <p>
             ไม่พบหน้าที่ต้องการ
         </p>
+         <NavLink
+              to="/"
+            >
+              คลิกเพื่อกลับหน้าหลัก
+            </NavLink>
     </MainLayout>
   )
 }
